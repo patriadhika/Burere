@@ -1,0 +1,28 @@
+body{
+    background: red;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container .card{
+    align-items: center;
+    background: grey;
+    margin-top: 195px;
+}
+
+.container .card form table tr td .colom-input{
+    border: none;
+    background: #fff;
+    height: 35px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container .card form table tr td .tombol{
+    height: auto;
+    width: 60px;
+}
